@@ -1,0 +1,229 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\bruhwantedtheboosiedfade.gif" />
+    <None Remove="Sounds\death_1.wav" />
+    <None Remove="Sounds\death_10.wav" />
+    <None Remove="Sounds\death_11.wav" />
+    <None Remove="Sounds\death_2.wav" />
+    <None Remove="Sounds\death_3.wav" />
+    <None Remove="Sounds\death_4.wav" />
+    <None Remove="Sounds\death_5.wav" />
+    <None Remove="Sounds\death_6.wav" />
+    <None Remove="Sounds\death_7.wav" />
+    <None Remove="Sounds\death_8.wav" />
+    <None Remove="Sounds\death_9.wav" />
+    <None Remove="Sounds\doublePointsDieSound.wav" />
+    <None Remove="Sounds\doublePointsLingerSound.wav" />
+    <None Remove="Sounds\doublePointsSound.wav" />
+    <None Remove="Sounds\dryFireSound.flac" />
+    <None Remove="Sounds\dryFireSound.wav" />
+    <None Remove="Sounds\instaKillDieSound.wav" />
+    <None Remove="Sounds\instaKillLingerSound.wav" />
+    <None Remove="Sounds\instaKillSound.wav" />
+    <None Remove="Sounds\m14ReloadSound.wav" />
+    <None Remove="Sounds\m14ShootSound.wav" />
+    <None Remove="Sounds\m14SpeedReloadSound.wav" />
+    <None Remove="Sounds\m1911ReloadSound.wav" />
+    <None Remove="Sounds\m1911ShootSound.wav" />
+    <None Remove="Sounds\m1911SpeedReloadSound.wav" />
+    <None Remove="Sounds\mainMenuChangeScreen.wav" />
+    <None Remove="Sounds\mainMenuLobbyJoin.wav" />
+    <None Remove="Sounds\mainMenuNav.wav" />
+    <None Remove="Sounds\mainMenuNavBackout.wav" />
+    <None Remove="Sounds\mainMenuNavEnter.wav" />
+    <None Remove="Sounds\mainMenuNavExit.wav" />
+    <None Remove="Sounds\mainMenuSongDamned.wav" />
+    <None Remove="Sounds\maxAmmoDieSound.wav" />
+    <None Remove="Sounds\maxAmmoSound.wav" />
+    <None Remove="Sounds\nukeDieSound.wav" />
+    <None Remove="Sounds\nukeLingerSound.wav" />
+    <None Remove="Sounds\nukeSound.wav" />
+    <None Remove="Sounds\powerUpLingerSound.wav" />
+    <None Remove="Sounds\powerUpPickUpSound.wav" />
+    <None Remove="Sounds\powerUpSpawnSound.wav" />
+    <None Remove="Sounds\swing_01.wav" />
+    <None Remove="Sounds\swing_02.wav" />
+    <None Remove="Sounds\swing_03.wav" />
+    <None Remove="Sounds\swing_04.wav" />
+    <None Remove="Sounds\swing_05.wav" />
+    <None Remove="Sounds\swing_06.wav" />
+    <None Remove="Sounds\WrongSoundEffect.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\bruhwantedtheboosiedfade.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\death_1.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\death_10.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\death_11.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\death_2.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\death_3.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\death_4.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\death_5.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\death_6.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\death_7.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\death_8.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\death_9.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\doublePointsDieSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\doublePointsLingerSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\doublePointsSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\dryFireSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\instaKillDieSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\instaKillLingerSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\instaKillSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\m14ReloadSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\m14ShootSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\m14SpeedReloadSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\m1911ReloadSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\m1911ShootSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\m1911SpeedReloadSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\mainMenuChangeScreen.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\mainMenuLobbyJoin.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\mainMenuNav.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\mainMenuNavBackout.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\mainMenuNavEnter.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\mainMenuNavExit.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\mainMenuSongDamned.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\maxAmmoDieSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\maxAmmoSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\nukeDieSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\nukeLingerSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\nukeSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\powerUpLingerSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\powerUpPickUpSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\powerUpSpawnSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\swing_01.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\swing_02.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\swing_03.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\swing_04.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\swing_05.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\swing_06.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Sounds\WrongSoundEffect.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="SoundTouch.Net.NAudioSupport" Version="2.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
